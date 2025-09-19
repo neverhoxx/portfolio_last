@@ -1,0 +1,39 @@
+.about  {
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.about_tittle   {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.about_container    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+}
+
+.about_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 0px;
+}
+
+.about-container1   {
+    width: 100%;
+    display: flex;
+    
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    
+}
